@@ -8,8 +8,6 @@ app.use(express.static("public"));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: "true" }));
 
-app.get("/", (resposne, request) => {});
-
 app.listen(process.env.PORT || 5000, () => {
   console.log(`Server running on`, 5000);
 });
